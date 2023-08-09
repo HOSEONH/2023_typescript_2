@@ -3,4 +3,4 @@ function addNumbers(a: number, b: number): number {
 }
 
 const result = addNumbers(5, 3);
-console.log(result); // 출력 결과: 8
+console.log(result); // 출력 결과 : 8
