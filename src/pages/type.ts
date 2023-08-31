@@ -1,7 +1,7 @@
 function greet(name?: string): string {
     if (name) {
-      return `Hello, ${name}!`;
+      return `Hi, ${name}!`;
     } else {
-      return `Hello!`;
+      return `Hi!`;
     }
 }
