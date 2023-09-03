@@ -6,5 +6,5 @@ function displayType(value: string | number): void {
   }
 }
 
-displayType("hello"); // 문자열 출력
-displayType(3.14159); // 숫자 출력
+displayType("hello"); 
+displayType(3.14159); 
