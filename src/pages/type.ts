@@ -1,8 +1,8 @@
 function displayType(value: string | number): void {
   if (typeof value === "string") {
-    console.log("Type: string, Value:", value.toUpperCase());
+    console.log("Type: string: ");
   } else {
-    console.log("Type: number, Value:", value.toFixed(2));
+    console.log("Type: number: ");
   }
 }
 
