@@ -24,7 +24,6 @@ let validators: { [s: string]: StringValidator } = {};
 validators["ZIP code"] = new ZipCodeValidator();
 validators["Letters only"] = new LettersOnlyValidator();
 
-// 각 문자열이 각 검사기를 통과했는지 표시
 for (let s of strings) {
   for (let name in validators) {
     let isMatch = validators[name].isAcceptable(s);
