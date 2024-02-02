@@ -17,7 +17,7 @@ class ZipCodeValidator implements StringValidator {
   }
 }
 
-let strings = ["Hello", "178230", "10132"];
+let strings = ["Hello", "178230", "1013"];
 
 // 사용할 검사기
 let validators: { [s: string]: StringValidator } = {};
